@@ -10,7 +10,7 @@ services:
       - "3306:3306"
 
   spring-app:
-    image: 5SAE2 # You will build this image in Jenkins later
+    image: 5sae2 # You will build this image in Jenkins later
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/eventsProject?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
       SPRING_DATASOURCE_USERNAME: root
